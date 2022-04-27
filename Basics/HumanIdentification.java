@@ -21,15 +21,23 @@ public class  HumanIdentification implements Human {
     public void age() {
         System.out.println(23);
     }
+    @Override
+    public void profission() {
+        System.out.println("Software Trainee");
+        
+    }
     public static void main(String[] args) {
         
     
     new HumanIdentification().Gender();
     new  HumanIdentification().colour();
     
-    new HumanIdentification().name();
+        new HumanIdentification().name();
     new HumanIdentification().age();
+    new HumanIdentification().profission();
     }
+
+    
 
    
         
