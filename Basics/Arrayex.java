@@ -20,7 +20,7 @@ public class Arrayex {
     for(int  i :arr){
         sum=sum+i;
     }
-    System.out.println(sum);
+    System.out.println("Sum : "+sum);
 
     }   
 }

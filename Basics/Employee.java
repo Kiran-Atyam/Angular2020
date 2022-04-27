@@ -1,3 +1,4 @@
+import java.time.LocalDateTime;
 public class Employee {
     int id;
     String empName;
@@ -37,5 +38,6 @@ class Zensar{
     public static void main(String[] args){
         Employee E = new Employee(66543,"Kiran","Java");
         System.out.println(E);
+        System.out.println(LocalDateTime.now());
     }
 }

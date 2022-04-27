@@ -55,6 +55,7 @@ public class Employee1 {
 class EmployeeSystem{
     static Scanner sc = new Scanner(System.in);
     private static Employee1 addEmployee(){
+       
         System.out.println("Enter the Employee id");
         int id = sc.nextInt();
         System.out.println("Enter the Employee eName"); 
