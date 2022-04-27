@@ -23,7 +23,7 @@ public class  HumanIdentification implements Human {
     }
     @Override
     public void profission() {
-        System.out.println("Software Trainee");
+        System.out.println("Software Developer");
         
     }
     public static void main(String[] args) {
