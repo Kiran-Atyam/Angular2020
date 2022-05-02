@@ -44,7 +44,7 @@ public class listex{
         }
         System.out.println("Lambda :-");
         list.forEach(z -> System.out.println(z));
-        
+
         System.out.println("Enhanced :-");
         list.forEach(System.out::println);
 
