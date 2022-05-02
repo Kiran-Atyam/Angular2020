@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 public class listex{
     public static List<Integer> convertIntoList(){
         int[] arr = {10,15,20,25,30};
-      //  ArrayList<Integer[]> list = Arrays.asList(arr);
+       // ArrayList<Integer[]> list = Arrays.asList(arr);
       List<Integer> list =new ArrayList<>();
 
       for (int e : arr){
@@ -25,6 +25,7 @@ public class listex{
         list.add(35);     //3
 
         list.remove(2);     // To remove the value(it remove 2nd array)
+
         list.add(2 , 30);    //it is used to add(replace) the element
 
         System.out.println(list);   // To print all the values in the list
@@ -43,6 +44,7 @@ public class listex{
         }
         System.out.println("Lambda :-");
         list.forEach(z -> System.out.println(z));
+        
         System.out.println("Enhanced :-");
         list.forEach(System.out::println);
 
