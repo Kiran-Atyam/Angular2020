@@ -12,10 +12,7 @@ public class Arr {
             arr.add(i);
             System.out.println(arr);
         }
-        for(int j =5; j>=n;j--){
-            arr.add(j);
-            System.out.println(arr);
-        }
+        
     }
     
 }
