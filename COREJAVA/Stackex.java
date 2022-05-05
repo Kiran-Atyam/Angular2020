@@ -13,4 +13,5 @@ public class Stackex {
        s.forEach(System.out::println);
     }
     
+    
 }

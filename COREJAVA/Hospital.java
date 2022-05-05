@@ -20,7 +20,7 @@ public class Hospital {
         String diseasename = sc.nextLine();
 
         System.out.print("Enter your phone no : ");
-        long phoneno = sc.nextLong();
+        int phoneno = sc.nextInt();
 
         Details d = new Details(id, name, age, diseasename, phoneno);
 
@@ -29,8 +29,9 @@ public class Hospital {
     }
 
     public static void main(String[] args) {
-        Details d = inputDetails();
+        Details d =   inputDetails();
         q.add(d);
+
         q.forEach(e -> {
             System.out.println("ID : " + e.getId());
             System.out.println("Name : " + e.getName());
@@ -38,7 +39,6 @@ public class Hospital {
             System.out.println("Disease : " + e.getDiseasename());
             System.out.println("Phone no : " + e.getPhoneno());
         });
-        
     }
 }
 class Details {
@@ -47,12 +47,12 @@ class Details {
     int age;
     String diseasename;
     int phoneno;
-    public Details(String id, String name, int age, String diseasename, long phoneno2) {
+    public Details(String id, String name, int age, String diseasename, int phoneno) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.diseasename = diseasename;
-        this.phoneno = phoneno2;
+        this.phoneno = phoneno;
     }
     public String getId() {
         return id;

@@ -10,7 +10,7 @@ public class Arr {
 
         for(int i =1; i<=n;i++){
             arr.add(i);
-            System.out.println(arr);
+            System.out.println(arr.get(i));
         }
         
     }
